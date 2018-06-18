@@ -72,10 +72,13 @@
 	{
 		$con = connexion ();
         $requete ="delete from bienImmobilier where numImmobilier = ".$numImmobilier.";";
+
+        echo $requete;
+
         mysqli_query($con,$requete);
         deconnexion($con);
 	}
-	function selectWhereNumImmobilierModel ($numImmobilier)
+	function selectWhereBienImmobilierM ($numImmobilier)
 	{
 		$con = connexion ();
 		$requete = "select * from bienImmobilier where numImmobilier = " .$numImmobilier.";";

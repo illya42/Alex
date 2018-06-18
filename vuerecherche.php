@@ -29,7 +29,7 @@
 		}
 		?>
 	</table>
-	
+
 <br/>
 <h2> Ajout D'Une Recherche </h2>
 <form method = "post" action ="">
@@ -40,9 +40,9 @@
 
 		<tr><td> Ville : </td> <td> <input type="text" name="villeRecherche" value= "<?php if (isset($resultat)) echo $resultat['villeRecherche'] ; ?> "></td></tr>
 
-		<tr><td> Prix Minimum : </td> <td> <input type="text" name="adresse" value= "<?php if (isset($resultat)) echo $resultat['adresse'] ; ?> "></td></tr>
+		<tr><td> Prix Minimum : </td> <td> <input type="text" name="prixMinRecherche" value= "<?php if (isset($resultat)) echo $resultat['prixMinRecherche'] ; ?> "></td></tr>
 
-		<tr><td> Prix Max : </td> <td> <input type="text" name="profession" value= "<?php if (isset($resultat)) echo $resultat['profession'] ; ?> "></td></tr>
+		<tr><td> Prix Max : </td> <td> <input type="text" name="prixMaxRecherche" value= "<?php if (isset($resultat)) echo $resultat['prixMaxRecherche'] ; ?> "></td></tr>
 
 		<tr><td> Nature De La Recherche (Location/Achat) : </td> <td> <input type="text" name="natureRecherche" value= "<?php if (isset($resultat)) echo $resultat['natureRecherche'] ; ?> "></td></tr>
 		

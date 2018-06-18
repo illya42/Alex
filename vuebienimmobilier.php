@@ -2,9 +2,15 @@
 	<h2> Liste des Immobiliers </h2>
 	<br/>
 	<table border = 5>
-		<tr><td> Numero Recherche </td> <td> Numero Mandat </td> <td> Adresse Immobilier </td> <td> Ville Immobilier </td> 
-			<td> Disponibilité Location </td> <td> Disponibilité Achat </td> <td> Prix Location 
-			</td> <td> Prix Achat </td></tr>
+		<tr><td> Numero Recherche </td>
+			<td> Numero Mandat </td>
+			<td> Adresse Immobilier </td>
+			<td> Ville Immobilier </td> 
+			<td> Disponibilité Location </td>
+			<td> Disponibilité Achat </td>
+			<td> Prix Location </td>
+			<td> Prix Achat </td>
+			<td> Modifier/Supprimer </td></tr>
 		<?php
 		foreach ($resultats as $unResultat) {
 			echo "<tr>

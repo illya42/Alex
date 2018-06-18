@@ -59,7 +59,7 @@
 						if(isset($_GET['action']) && isset($_GET['numImmobilier']))
 						{
 							$action = $_GET['action'];
-							$idevenement = $_GET['numImmobilier'];
+							$numImmobilier = $_GET['numImmobilier'];
 							if($action=="X")
 							{
 								deleteBienImmobilierC($numImmobilier);
